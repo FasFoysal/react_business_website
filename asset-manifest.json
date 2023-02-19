@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FasFoysal/react_business_website/static/css/main.dc95e2f4.css",
+    "main.js": "/FasFoysal/react_business_website/static/js/main.73c1f7b1.js",
+    "static/js/787.d3befce1.chunk.js": "/FasFoysal/react_business_website/static/js/787.d3befce1.chunk.js",
+    "static/media/home.svg": "/FasFoysal/react_business_website/static/media/home.3930230ab83584d058db50d1ae67754b.svg",
+    "static/media/about.svg": "/FasFoysal/react_business_website/static/media/about.f2232690b435be0ae325cf3b5ff6a937.svg",
+    "index.html": "/FasFoysal/react_business_website/index.html",
+    "main.dc95e2f4.css.map": "/FasFoysal/react_business_website/static/css/main.dc95e2f4.css.map",
+    "main.73c1f7b1.js.map": "/FasFoysal/react_business_website/static/js/main.73c1f7b1.js.map",
+    "787.d3befce1.chunk.js.map": "/FasFoysal/react_business_website/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc95e2f4.css",
+    "static/js/main.73c1f7b1.js"
+  ]
+}
