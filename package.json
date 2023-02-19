@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "homepage": "https://github.com/FasFoysal/react_business_website",
+  "homepage": "https://fasfoysal.github.io/react_business_website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
