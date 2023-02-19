@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Route, Routes, Navigate} from 'react-router-dom';
+import './../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Manu from './Manu';
+import Home from './Component/Home';
+import About from './Component/About';
+import Services from './Component/Services';
+import Contract from './Component/Contract';
+import "animate.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+        <Manu />
+        <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/about" element={<About />}/>
+            <Route path="/services" element={<Services />}/>
+            <Route path="/contract" element={<Contract />}/>
+            <Route path="*" element={<Navigate to="/" />}/>
+        </Routes>
+    </>
+  )
 }
 
-export default App;
+export default App
